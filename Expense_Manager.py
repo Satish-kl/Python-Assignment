@@ -2,15 +2,15 @@
 #  SMART EXPENSE MANAGER SYSTEM
 # ============================================
 # Features:
-# ✔ User Creation
-# ✔ Add / View Expenses
-# ✔ Filter (Category & Date)
-# ✔ Total Calculation (map + reduce)
-# ✔ Category-wise Spending
-# ✔ Update / Delete
-# ✔ Monthly Report
-# ✔ Highest Expense
-# ✔ Smart Insight
+# User Creation
+# Add / View Expenses
+# Filter (Category & Date)
+# Total Calculation (map + reduce)
+# Category-wise Spending
+# Update / Delete
+# Monthly Report
+# Highest Expense
+# Smart Insight
 # ============================================
 
 
