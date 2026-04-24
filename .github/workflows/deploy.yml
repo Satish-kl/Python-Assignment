@@ -21,7 +21,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-southeast-2
 
-      - name: Sync files to S3
-        run: aws s3 sync . s3://satish-devops-s3-demo --delete --exclude ".git/*" --exclude ".github/*"
+      - name: Verify AWS connection
+        run: aws sts get-caller-identity
 
-    
+      - name: Sync files to S3
+        run: |
+          aws s3 sync . s3://satish-devops-s3-demo \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*"
