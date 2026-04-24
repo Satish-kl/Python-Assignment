@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to S3 Bucket
         run: |
-          aws s3 sync . s3://best-s3-demo-bucket \
+          aws s3 sync . s3://satish-devops-s3-demo \
           --delete \
           --exclude ".git/*" \
           --exclude ".github/*"
